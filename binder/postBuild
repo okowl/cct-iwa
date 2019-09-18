@@ -1,7 +1,2 @@
 jupyter contrib nbextension install --user
 jupyter nbextension enable splitcell/splitcell
-
-# Workaround for https://github.com/damianavila/RISE/issues/479
-JUPYTER_CONFIG_DIR=$(jupyter --config-dir)
-mkdir $JUPYTER_CONFIG_DIR/custom
-cp binder/rise.css $JUPYTER_CONFIG_DIR/custom/custom.css
