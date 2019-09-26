@@ -219,7 +219,8 @@ body {
 
 .reveal code {
   font-family: monospace;
-  text-transform: none; }
+  text-transform: none;
+  background-color: #fff;}
 
 .reveal pre code {
   display: block;
